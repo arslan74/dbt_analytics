@@ -3,7 +3,7 @@ version: 2
 sources:
     - name: staging
       #For bigquery:
-      database: taxi-rides-ny-339813
+      database: clear-rock-338918 
 
       # For postgres:
       #database: production
