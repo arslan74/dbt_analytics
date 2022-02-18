@@ -8,12 +8,12 @@ sources:
       # For postgres:
       #database: production
 
-      schema: all_trips_data
+      schema: ny_trips_us
 
       # loaded_at_field: record_loaded_at
       tables:
-        - name: green_taxi_data
-        - name: yellow_taxi_data
+        - name: green_taxidata
+        - name: yellow_taxidata
          # freshness:
            # error_after: {count: 6, period: hour}
 
