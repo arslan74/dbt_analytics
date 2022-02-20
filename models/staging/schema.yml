@@ -4,16 +4,13 @@ sources:
     - name: staging
       #For bigquery:
       database: clear-rock-338918 
-
       # For postgres:
       #database: production
-
-      schema: ny_trips_us
-
+      schema: all_taxis_tripdata  
       # loaded_at_field: record_loaded_at
       tables:
-        - name: green_taxidata
-        - name: yellow_taxidata
+        - name: green_tripdata
+        - name: yellow_tripdata
          # freshness:
            # error_after: {count: 6, period: hour}
 
